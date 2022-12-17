@@ -19,7 +19,7 @@ import { LayoutsModule } from '../layouts/layouts.module';
         CommonModule,
         PagesRoutingModule,
         ComponentsModule,
-        LayoutsModule
+        LayoutsModule,
     ]
 })
 export class PagesModule { }

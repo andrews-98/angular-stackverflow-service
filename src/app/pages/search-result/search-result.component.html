@@ -1,4 +1,4 @@
-<div class="results">
+<div class="results" *ngIf='items' [@fadeInOut]>
     <div *ngFor="let item of items?.items" class="result__item">
         <app-question-item [question]="item"></app-question-item>
     </div>
