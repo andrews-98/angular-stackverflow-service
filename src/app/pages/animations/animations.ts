@@ -8,7 +8,7 @@ export const fadeAnimation =
         style({
           opacity: 0,
         }),
-        animate('1s ease-in',
+        animate('0.5s ease-in',
           style({
             'opacity': '1',
           }))
@@ -17,7 +17,7 @@ export const fadeAnimation =
         style({
           opacity: 1,
         }),
-        animate('1s ease-out',
+        animate('0.5s ease-out',
           style({
             'opacity': '0',
           }))
