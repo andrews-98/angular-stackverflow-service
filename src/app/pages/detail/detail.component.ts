@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Answer, Question, SearchData } from 'src/app/models/qustion';
+import { Answer, Question, SearchData } from 'src/app/models/question';
 import { QuestionsService } from 'src/app/shared/services/questions.service';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Question } from 'src/app/models/qustion';
+import { Question } from 'src/app/models/question';
 import { QuickPanelService } from 'src/app/shared/services/quick-panel.service';
 
 @Component({

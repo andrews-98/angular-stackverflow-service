@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Question, SearchData } from 'src/app/models/qustion';
+import { Question, SearchData } from 'src/app/models/question';
 import { QuickPanelService } from 'src/app/shared/services/quick-panel.service';
 
 @Component({
