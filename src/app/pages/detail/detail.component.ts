@@ -29,12 +29,10 @@ export class DetailComponent implements OnInit {
   getQuestionDetails(id: number){
     this.service.getQuestionDetail(id).subscribe( question => {
       this.question = question.items[0]
-      console.log(this.question);
       
     })
     this.service.getQuestionAnswers(id).subscribe(answers => {
       this.answers = answers
-      console.log(answers);
       
     })
   }
