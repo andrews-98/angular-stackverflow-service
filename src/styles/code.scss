@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+pre {
+  background-color: $code-bg-color;
+  padding: 10px;
+  overflow: auto;
+  width: $body-width - $answer-info-width;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}

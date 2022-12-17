@@ -1,0 +1,8 @@
+.searchbar{
+    display: flex;
+
+    &__input {
+        flex: auto;
+        padding-right: 5px;
+    }
+}

@@ -1,0 +1,9 @@
+<div class="results">
+    <div *ngFor="let item of items?.items" class="result__item">
+        <app-question-item [question]="item"></app-question-item>
+    </div>
+    <div class="no-result" *ngIf="items?.items?.length === 0">
+        <p>We couldn`t find any question like: <strong>{{query}}</strong></p>
+        <div class="keywords">Try another different or less specific keywords.</div>
+    </div>
+</div>

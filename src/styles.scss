@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'styles/button.scss';
+@import 'styles/textbox.scss';
+
+body {
+    font-family: Roboto, sans-serif;
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+

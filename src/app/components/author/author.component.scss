@@ -1,0 +1,11 @@
+.author {
+    width: 200px;
+    &__image{
+    max-width: 28px;
+    max-height: 28px;
+    margin-right: 10px;
+    }
+    span{
+      cursor: pointer;
+    }
+  }

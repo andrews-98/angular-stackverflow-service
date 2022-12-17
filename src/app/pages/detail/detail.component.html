@@ -1,0 +1,18 @@
+<div class="question">
+  <app-question-detail [question]="question"></app-question-detail>
+</div>
+
+<div class="answers">
+  <h3>
+    Answers
+  </h3>
+  <div *ngIf="answers">
+    <div  *ngFor="let answer of answers?.items" class="answer__item">
+      <app-answer [answer]="answer"></app-answer>
+    </div>
+
+    <div *ngIf="answers?.items?.length === 0" class="no-result">
+      <p>Nobody answered this question :(</p>
+    </div>
+  </div>
+</div>
